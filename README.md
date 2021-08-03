@@ -13,9 +13,17 @@
  5. Confirmação de Senha
  
  ### Após verificação, os Dados fornecidos são enviados por email: 
-- Que deve ser configurado no arquivo [index.js](https://github.com/trallerd/BasicForm/blob/main/index.js).
+- Que deve ser configurado no arquivo [index.js](https://github.com/trallerd/Basic-Form/blob/main/index.js).
 
- `To: Email que deseja enviar`
+ `Host: "",`
+ 
+ `Username: "Email: from",`
+ 
+ `Password: "password",`
+ 
+ `To: "EMAIL: send",`
+ 
+ `From: "email: from",`
  
  #### O email que vai receber o email, além do de envio devem estar com a opção de [Apps menos seguros e a Conta do Google](https://support.google.com/accounts/answer/6010255?hl=pt) ativados.
  - Ou você receberá um erro [405 Method Not Allowed](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status/405)
