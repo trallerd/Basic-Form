@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38af4e8ef1.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="icon" href="img/icon.png">
+
+
+    <title>Basic Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <button title="Night Mode On" id="night-mode" class="ajust"><i class="fas fa-adjust fa-lg"></i></button>
+        </div>
+        <h1 class="animated bounce infinite delay-3s" id="h1">Basic Form</h1>
+        <form class="form-box" method="POST" action="#" onsubmit="return false;">
+            <input required type="text" name="nome" id="nome" placeholder="Nome Completo" autofocus>
+            <input required type="email" name="email" id="email" placeholder="Email">
+            <input required type="text" name="tel" id="tel" placeholder="Telefone">
+            <input required type="password" placeholder="Senha" name="senha" id="senha" inputmode="numeric" required autocomplete="off" minlength="4">
+            <input required type="password" placeholder="Confirmar Senha" name="confirma-senha" id="confirma-senha" inputmode="numeric" required autocomplete="off" minlength="4">
+            <input type="submit" id="send" value="Enviar">
+
+        </form>
+        <small id="lembrete">*Não esqueça de configurar o email no arquivo index.js, ou ocrrerá um erro!</small>
+    </div>
+    <div id="confirma-popup" class="wow">
+
+        <div class=" conteudo ">
+            <button class="fecha ">&times;</button>
+            <p id="cont-popup">Dados enviados com sucesso!</p>
+        </div>
+
+    </div>
+
+
+    <script src="index.js "></script>
+
+</body>
+
+</html>
+</body>
+
+</html>

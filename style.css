@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a363b;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-box {
+    background-color: #99b898;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 24px;
+}
+
+h1 {
+    text-align: center;
+    color: #E84a5f;
+    margin: 5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    font-family: 'Fuggles', cursive;
+}
+
+.lembrete {
+    display: block;
+}
+
+input {
+    outline: none;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 6px 0;
+    border: #fff;
+    border-radius: 15px;
+    font-family: 'Roboto Mono', monospace;
+    transition: background 0.7s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+    padding: 10px;
+}
+
+input:hover[type="button"] {
+    background-color: #ff847c;
+}
+
+.ajust {
+    background-color: transparent;
+    border: none;
+}
+
+#confirma-popup {
+    position: fixed;
+    width: 100%;
+    display: none;
+}
+
+.conteudo {
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #50884bc0;
+    margin: 5% auto;
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+}
+
+.fecha {
+    border: none;
+    background-color: transparent;
+    color: #aaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fecha:hover,
+.fecha:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+small {
+    color: #ff847c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+    h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 6em;
+    }
+    .form-box {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width:501px) {
+    .container {
+        width: 90%;
+    }
+    h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 6em;
+    }
+    .form-box {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width:701px) {
+    .container {
+        width: 90%;
+    }
+    h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .form-box {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .container {
+        width: 90%;
+    }
+    .form-box {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    h1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .form-box {
+        margin: 10px;
+    }
+}
